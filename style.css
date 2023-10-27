@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #EFEFEF;
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 436px;
+    position: fixed;
+    top: 0;
+    background: #535971;
+    z-index: -1;
+}
+
+h1, h2 {
+    font-family: 'Staatliches', sans-serif;
+}
+
+header {
+    width: 750px;
+    height: 126px;
+    margin: 140px auto 58px;
+}
+
+header h1 {
+    width: 163px;
+    height: 60px;
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+header p {
+    width: 417px;
+    height: 46px;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+#mentoring-form {
+    width: 750px;
+    height: 1084px;
+    margin: auto;
+    padding: 64px;
+    border-radius: 20px 20px 0 0;
+    background: white;
+}
+
+#mentoring-form h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #535971;
+    line-height: 34px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #E6E6F0;
+}
+
+.input input {
+    width: 300px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    padding: 20px;
+}
+
+.input-name {
+    margin-top: 36px;
+    display: flex;
+    gap: 22px;
+}
+
+#mentoring-form label {
+    color: #4E4958;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+span {
+    color: #C1BCCC;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 0 8px 5px;
+}
+
+.input-login {
+    margin-top: 16px;
+}
+
+.input-login input {
+    width: 622px;
+    margin-bottom: 30px;
+}
+
+.input-mentor {
+    margin: 32px 0;
+}
+
+.input-mentor input {
+    width: 622px;
+}
+
+.info h1 {
+    margin-bottom: 32px;
+}
+
+.input-date {
+    display: flex;
+}
+
+.info-title h2 {
+    color: #535971;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 10px;
+}
+
+.margin {
+    margin-top: 16px;
+}
+
+.input-width {
+    margin-right: 32px;
+}
+
+.width-input input {
+    width: 140px;
+    margin-right: 10px;
+}
+
+footer {
+    width: 750px;
+    height: 160px;
+    border-radius: 0px 0px 20px 20px;
+    background: #9396a1;
+    margin: 0 auto 366px;
+}
+
+button {
+    width: 608px;
+    height: 56px;
+    margin: 52px 71px;
+    border-radius: 20px;
+    border: none;
+    background: #FF5374;
+    color: white;
+    font-family: Staatliches;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    cursor: pointer;
+}

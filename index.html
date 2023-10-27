@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Agende sua mentoria!</title>
+</head>
+<body>
+
+    <header>
+        <h1>mentoria</h1>
+
+        <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+    </header>
+    
+    <form id="mentoring-form">
+        <div class="info">
+            <h1>Informações pessoais</h1>
+        </div>
+
+        <div class="input-name input">
+        <div>
+            <label for="name">Nome</label><br>
+            <input type="text" name="nome" id="name">
+        </div>
+
+        <div>
+            <label for="last-name">Sobrenome</label><br>
+            <input type="text" name="sobrenome" id="last-name">
+        </div>
+        </div>
+
+        <div class="input-login input">
+            <label for="email">E-mail <span>(digite um email válido)</span></label><br>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div class="input-login input">
+            <label for="password">Senha <span>(mínimo de 6 caracteres)</span></label><br>
+            <input type="password" name="senha" id="password" minlength="6">
+        </div>
+
+        <div class="info">
+            <h1>Informações do mentor</h1>
+        </div>
+
+        <div class="input-mentor input">
+            <label for="mentoring-name">Nome do seu mentor <span>(só o primeiro nome)</span></label><br>
+            <input type="text" name="nome do mentor" id="mentoring-name">
+        </div>
+
+        <div class="info">
+            <h1>Seus horários disponíveis</h1>
+        </div>
+
+        <div class="info-title">
+            <h2>Primeira mentoria</h2>
+        </div>
+
+        <div class="input-date input">
+
+            <div class="input-width">
+            <label for="date-info">Data <span>(DD/MM/AAAA)</span></label><br>
+            <input type="date" name="data" id="date-info">
+        </div>
+
+            <div class="width-input">
+            <label for="hours-info">Das</label><br>
+            <input type="time" name="horas" id="hours-info">
+        </div>
+
+            <div class="width-input">
+            <label for="to-hours">Até</label><br>
+            <input type="time" name="tempo final" id="to-hours">
+        </div>
+        </div>
+
+        <div class="info-title">
+            <h2 class="margin">Segunda mentoria</h2>
+        </div>
+
+        <div class="input-date input">
+
+            <div class="input-width">
+            <label for="date">Data <span>(DD/MM/AAAA)</span></label><br>
+            <input type="date" name="data" id="date">
+        </div>
+
+            <div class="width-input">
+            <label for="hours">Das</label><br>
+            <input type="time" name="horas" id="hours">
+        </div>
+
+            <div class="width-input">
+            <label for="hours-end">Até</label><br>
+            <input type="time" name="tempo final" id="hours-end">
+        </div>
+        </div>
+
+    </form>
+
+    <footer>
+        <div class="button">
+        <button type="submit" form="mentoring-form">Salvar</button>
+    </div>
+    </footer>
+    
+</body>
+</html>
